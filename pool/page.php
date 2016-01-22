@@ -434,7 +434,7 @@ function pgtop($info, $dotop, $user, $douser)
 		if ($who == false)
 		{
 			$top .= '<table cellpadding=0 cellspacing=0 border=0><tr><td>';
-			$top .= '<a href="https://' . $_SERVER['SERVER_NAME'];
+			$top .= '<a href="';
 			$top .= '/index.php?Register=1">Login<br>Register</a>';
 			$top .= '</td></tr></table>';
 		}
